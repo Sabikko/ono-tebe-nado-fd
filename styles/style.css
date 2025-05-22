@@ -137,9 +137,9 @@
 }
 
 .lots__heading {
+  margin-left: 40px;
   font-size: 40px;
   text-transform: uppercase;
-  margin-left: 40px;
 }
 
 .lots__card-list {
@@ -302,10 +302,10 @@
 
 .footer__social-list {
   display: flex;
-  align-items: start;
   justify-content: end;
-  list-style: none;
+  align-items: start;
   gap: 48px;
+  list-style: none;
 }
 
 .footer__social-icon {
