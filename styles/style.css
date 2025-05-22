@@ -33,7 +33,7 @@
   text-decoration: none;
 }
 
-.header__logo{
+.header__logo {
   display: block;
   width: 133px;
 }
@@ -98,7 +98,7 @@
   letter-spacing: 30px;
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
   letter-spacing: 0;
 }
 
