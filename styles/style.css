@@ -68,7 +68,8 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  padding: 165px 50px 106px;
+  padding: 165px 50px 0px;
+  margin-bottom: 106px;
 }
 
 .cover__title-text {
@@ -122,5 +123,97 @@
 }
 
 .lots {
-  padding: 180px 24px 120px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 180px;
+  padding: 0 24px;
+}
+
+.lots__heading {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+  margin-top: 27px;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-link {
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card__title {
+  z-index: 1;
+  padding: 48px 40px 0px;
+}
+
+.card__title-text {
+  color:#FFF;
+  text-decoration: underline;
+  font-size: 22px;
+  text-transform: uppercase;
+  line-height: 120%;
+}
+
+.card__text {
+  color:#FFF;
+  z-index: 1;
+  font-size: 20px;
+  line-height: 120%;
+  padding: 0px 40px 48px;
+}
+
+.lots__look-more-link {
+  width: 192px;
+  font-size: 20px;
+  margin: 30px 820px 0px 40px;
+  border-bottom: 1px solid #000;
+}
+
+.about {
+  margin-top: 120px;
+  padding: 0 24px;
+}
+
+.about__column {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
